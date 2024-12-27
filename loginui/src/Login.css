@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  background-color: #003a82; /* Dark blue */
+  font-family: Arial, sans-serif;
+}
+.signup-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding: 20px;
+}
+.signup-card{
+  background-color: #E3EDFF;
+  display: block;
+  margin-left: 150px;
+  height: 450px;
+  width: 850px;
+  border-radius: 40px;
+  padding: 50px;
+}
+.signup-header a{
+  margin: 0;
+}
+.signup-header p {
+  color: #555;
+  font-size: 14px;
+}
+
+#Name {
+  
+  width: 300px;
+  padding: 15px ;
+  margin-bottom: 20px;
+  margin-left: 80px;
+  border: 2px solid #ccc;
+  border-radius: 35px;
+
+}
+#email {
+  
+  width: 300px;
+  padding: 15px ;
+  margin-bottom: 20px;
+  margin-left: 80px;
+  border: 2px solid #ccc;
+  border-radius: 35px;
+
+}
+#password{
+  width: 300px;
+  padding: 15px ;
+  margin-bottom: 20px;
+  margin-left: 43px;
+  border: 2px solid #ccc;
+  border-radius: 35px;
+}
+.login-form label{
+  color: black;
+  font-size: 18px;
+}
+#checkbox{
+  margin-left: 0px;
+  margin-top: 17px;
+}
+#checkid{
+  margin-left: 9px;
+  margin-bottom: 20px;
+}
+.signup-button{
+  
+  margin-left: 200px ;
+  margin-top: 30px;
+  background-color: #003a82;
+  color: azure;
+  border-radius: 30px;
+  width: 200px; /* Adjust width */
+  height: 50px; /* Adjust height */
+  padding: 16px 20px; 
+  
+}
+.signup-button:hover{
+  background-color: black;
+}
+/* .signup-img{
+  display: block;
+  margin-left: 550px;
+  margin-top: -360px;
+  
+} */
+.signup-img {
+  display: block;
+  margin-top: -400px;
+  margin-left: 520px;
+  border: 0px solid #ccc;
+  
+}
+
+.signup-img img {
+  width: 350px;
+  height: 450px;
+  border-radius: 10px;
+}
